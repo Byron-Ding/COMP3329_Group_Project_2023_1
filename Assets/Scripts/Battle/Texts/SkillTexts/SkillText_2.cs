@@ -26,15 +26,15 @@ public class SkillText_2 : TextBasic, SkillTextInterface {
 
     }
     private void ButtonLeftClick() {
-        // 先暂时取消所有脚本和Text组件的绑定
+        // 先暂时关闭 所有和Text组件的绑定的脚本
         Text skillText1 = dialogBox.moveTexts_public[0];
-        Destroy(skillText1.GetComponent<SkillText_1>());
+        skillText1.GetComponent<SkillText_1>().enabled = false;
         Text skillText2 = dialogBox.moveTexts_public[1];
-        Destroy(skillText2.GetComponent<SkillText_2>());
+        skillText2.GetComponent<SkillText_2>().enabled = false;
         Text skillText3 = dialogBox.moveTexts_public[2];
-        Destroy(skillText3.GetComponent<SkillText_3>());
+        skillText3.GetComponent<SkillText_3>().enabled = false;
         Text skillText4 = dialogBox.moveTexts_public[3];
-        Destroy(skillText4.GetComponent<SkillText_4>());
+        skillText4.GetComponent<SkillText_4>().enabled = false;
 
         // 直接传入技能ID
         battleSystem.currentMove = skillID;

@@ -436,6 +436,7 @@ MonoBehaviour:
   playerHud: {fileID: 930723305}
   enemyHud: {fileID: 1904924466}
   dialogBox: {fileID: 2012211744}
+  currentMove: 0
 --- !u!1 &287489207
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +528,7 @@ GameObject:
   - component: {fileID: 295362878}
   - component: {fileID: 295362880}
   - component: {fileID: 295362879}
+  - component: {fileID: 295362881}
   m_Layer: 0
   m_Name: MoveText
   m_TagString: Untagged
@@ -596,6 +598,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295362877}
   m_CullTransparentMesh: 1
+--- !u!114 &295362881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295362877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd4811aa173d59f4899b295035baddfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftClick:
+    m_PersistentCalls:
+      m_Calls: []
+  middleClick:
+    m_PersistentCalls:
+      m_Calls: []
+  rightClick:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogBox: {fileID: 2012211744}
+  battleSystem: {fileID: 243890294}
 --- !u!1 &319042995
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,6 +944,7 @@ GameObject:
   - component: {fileID: 750417868}
   - component: {fileID: 750417870}
   - component: {fileID: 750417869}
+  - component: {fileID: 750417871}
   m_Layer: 0
   m_Name: MoveText (2)
   m_TagString: Untagged
@@ -988,6 +1014,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750417867}
   m_CullTransparentMesh: 1
+--- !u!114 &750417871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750417867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc736a0dc512c5148b3e1ec27db9505d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftClick:
+    m_PersistentCalls:
+      m_Calls: []
+  middleClick:
+    m_PersistentCalls:
+      m_Calls: []
+  rightClick:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogBox: {fileID: 2012211744}
+  battleSystem: {fileID: 243890294}
 --- !u!1 &872181209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,6 +1235,7 @@ GameObject:
   - component: {fileID: 1005664880}
   - component: {fileID: 1005664882}
   - component: {fileID: 1005664881}
+  - component: {fileID: 1005664883}
   m_Layer: 0
   m_Name: Run
   m_TagString: Untagged
@@ -1255,6 +1305,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005664879}
   m_CullTransparentMesh: 1
+--- !u!114 &1005664883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005664879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 837eb4bdda91ba24a8b5e8acd2593e82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftClick:
+    m_PersistentCalls:
+      m_Calls: []
+  middleClick:
+    m_PersistentCalls:
+      m_Calls: []
+  rightClick:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogBox: {fileID: 2012211744}
+  battleSystem: {fileID: 243890294}
 --- !u!1 &1068691106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,6 +1339,7 @@ GameObject:
   - component: {fileID: 1068691107}
   - component: {fileID: 1068691109}
   - component: {fileID: 1068691108}
+  - component: {fileID: 1068691110}
   m_Layer: 0
   m_Name: Fight
   m_TagString: Untagged
@@ -1335,6 +1409,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1068691106}
   m_CullTransparentMesh: 1
+--- !u!114 &1068691110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068691106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a314b521a7dc4c54ba66265f418684cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftClick:
+    m_PersistentCalls:
+      m_Calls: []
+  middleClick:
+    m_PersistentCalls:
+      m_Calls: []
+  rightClick:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogBox: {fileID: 2012211744}
+  battleSystem: {fileID: 243890294}
 --- !u!1 &1072437511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,6 +1566,7 @@ GameObject:
   - component: {fileID: 1142150265}
   - component: {fileID: 1142150267}
   - component: {fileID: 1142150266}
+  - component: {fileID: 1142150268}
   m_Layer: 0
   m_Name: MoveText (3)
   m_TagString: Untagged
@@ -1538,6 +1636,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142150264}
   m_CullTransparentMesh: 1
+--- !u!114 &1142150268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142150264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66389a5729741784cad92ffdcd465fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftClick:
+    m_PersistentCalls:
+      m_Calls: []
+  middleClick:
+    m_PersistentCalls:
+      m_Calls: []
+  rightClick:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogBox: {fileID: 2012211744}
+  battleSystem: {fileID: 243890294}
 --- !u!1 &1163581848
 GameObject:
   m_ObjectHideFlags: 0
@@ -3064,6 +3185,7 @@ GameObject:
   - component: {fileID: 1211756463}
   - component: {fileID: 1211756465}
   - component: {fileID: 1211756464}
+  - component: {fileID: 1211756466}
   m_Layer: 0
   m_Name: MoveText (1)
   m_TagString: Untagged
@@ -3133,6 +3255,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211756462}
   m_CullTransparentMesh: 1
+--- !u!114 &1211756466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211756462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44bbb53bd7c02542bef190741ce3f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftClick:
+    m_PersistentCalls:
+      m_Calls: []
+  middleClick:
+    m_PersistentCalls:
+      m_Calls: []
+  rightClick:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogBox: {fileID: 2012211744}
+  battleSystem: {fileID: 243890294}
 --- !u!1 &1241199629
 GameObject:
   m_ObjectHideFlags: 0

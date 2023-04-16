@@ -138,13 +138,13 @@ public class BattleSystem : MonoBehaviour
     }
     void HandleActionSelection()
     {
-        // 绑定临时点击事件到actionTexts上
+        // 临时启用 actionTexts上的脚本
         // fight
         Text fightText = dialogBox.actionTexts_public[0];
-        fightText.AddComponent<FightText>();
+        fightText.GetComponent<FightText>().enabled = true;
         // run
         Text runText = dialogBox.actionTexts_public[1];
-        runText.AddComponent<RunText>();
+        runText.GetComponent<RunText>().enabled = true;
 
 
         if (Input.GetKeyDown(KeyCode.DownArrow))
@@ -179,13 +179,13 @@ public class BattleSystem : MonoBehaviour
     void HandleMoveSelection() {
         // 绑定临时点击事件到moveTexts上
         Text skillText1 = dialogBox.moveTexts_public[0];
-        skillText1.AddComponent<SkillText_1>();
+        skillText1.GetComponent<SkillText_1>().enabled = true;
         Text skillText2 = dialogBox.moveTexts_public[1];
-        skillText2.AddComponent<SkillText_2>();
+        skillText2.GetComponent<SkillText_2>().enabled = true;
         Text skillText3 = dialogBox.moveTexts_public[2];
-        skillText3.AddComponent<SkillText_3>();
+        skillText3.GetComponent<SkillText_3>().enabled = true;
         Text skillText4 = dialogBox.moveTexts_public[3];
-        skillText4.AddComponent<SkillText_4>();
+        skillText4.GetComponent<SkillText_4>().enabled = true;
 
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
