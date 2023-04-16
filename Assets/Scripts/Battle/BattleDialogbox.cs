@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class BattleDialogbox : MonoBehaviour
-{
+public class BattleDialogbox : MonoBehaviour {
     [SerializeField] int lettersPerSecond;
     [SerializeField] Color highlightedColor;
     [SerializeField] Text dialogText;
@@ -14,6 +13,18 @@ public class BattleDialogbox : MonoBehaviour
 
     [SerializeField] List<Text> actionTexts;
     [SerializeField] List<Text> moveTexts;
+
+    // 创建两个属性用于调用 Texts
+    public List<Text> actionTexts_public {
+        get { return actionTexts; }
+        set { actionTexts = value; }
+    }
+
+    public List<Text> moveTexts_public {
+        get { return moveTexts; }
+        set { moveTexts = value; }
+    }
+
 
     public void SetDialog(string dialog)
     {
