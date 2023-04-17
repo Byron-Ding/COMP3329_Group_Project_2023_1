@@ -21,8 +21,13 @@ MonoBehaviour:
   m_ShowMode: 4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: "\u6E38\u620F"
   m_RootView: {fileID: 7}
+=======
+  m_Title: "\u63A7\u5236\u53F0"
+  m_RootView: {fileID: 6}
+>>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
 =======
   m_Title: "\u63A7\u5236\u53F0"
   m_RootView: {fileID: 6}
@@ -42,6 +47,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_EditorHideFlags: 0
@@ -72,6 +78,8 @@ MonoBehaviour:
 >>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
 =======
 >>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
+=======
+>>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
   m_EditorHideFlags: 1
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -90,8 +98,13 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 42
 --- !u!114 &4
+=======
+  controlID: 37
+--- !u!114 &3
+>>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
 =======
   controlID: 37
 --- !u!114 &3
@@ -328,9 +341,15 @@ MonoBehaviour:
   - {fileID: 13}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &13
+=======
+  m_Selected: 2
+  m_LastSelected: 0
+--- !u!114 &12
+>>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
 =======
   m_Selected: 2
   m_LastSelected: 0
@@ -474,6 +493,7 @@ MonoBehaviour:
   m_FolderTreeState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 20.600006}
     m_SelectedIDs: 846d0000
     m_LastClickedID: 28036
@@ -481,11 +501,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
+=======
+>>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
     scrollPos: {x: 0, y: 15}
     m_SelectedIDs: 5e6b0000
     m_LastClickedID: 27486
     m_ExpandedIDs: 00000000046b0000286b00005e6b000000ca9a3bffffff7f
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
+=======
 >>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
 =======
 >>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
@@ -518,7 +543,11 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000007e6d0000806d0000826d0000846d0000866d0000
+=======
+    m_ExpandedIDs: 00000000046b0000
+>>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
 =======
     m_ExpandedIDs: 00000000046b0000
 >>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
@@ -664,9 +693,15 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: e6f9ffff
+=======
+      m_SelectedIDs: 16fbffff
+      m_LastClickedID: -1258
+      m_ExpandedIDs: 9cf8ffff16fbffff8c6b0000906b0000bc6b0000f86b0000866c0000a26c0000ac6c0000
+>>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
 =======
       m_SelectedIDs: 16fbffff
       m_LastClickedID: -1258
@@ -1070,9 +1105,15 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.5, y: 2.8000002, z: -10}
     speed: 2
     m_Value: {x: 0.5, y: 2.8000002, z: -10}
+=======
+    m_Target: {x: 0.5, y: -0.5, z: 0}
+    speed: 2
+    m_Value: {x: 0.5, y: -0.5, z: 0}
+>>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
 =======
     m_Target: {x: 0.5, y: -0.5, z: 0}
     speed: 2
@@ -1134,9 +1175,15 @@ MonoBehaviour:
   m_Size:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 12.124355
     speed: 2
     m_Value: 12.124355
+=======
+    m_Target: 14.57738
+    speed: 2
+    m_Value: 14.57738
+>>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
 =======
     m_Target: 14.57738
     speed: 2
@@ -1303,6 +1350,7 @@ MonoBehaviour:
     m_SaveData: []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1402,6 +1450,8 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+=======
+>>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
 =======
 >>>>>>> parent of 79d8399 (添加NuGet C#外部库管理器)
 =======
