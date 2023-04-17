@@ -7,11 +7,6 @@ public class SkillText_1 : TextBasic, SkillTextInterface {
     [SerializeField] BattleDialogbox dialogBox;
     [SerializeField] BattleSystem battleSystem;
 
-<<<<<<< Updated upstream
-=======
-    [SerializeField] List<Text> actionTexts;
-    [SerializeField] List<Text> moveTexts;
->>>>>>> Stashed changes
     public int skillID {
         get { return 1; }
         set {
@@ -33,7 +28,6 @@ public class SkillText_1 : TextBasic, SkillTextInterface {
 
     private void ButtonLeftClick() {
         // 先暂时关闭 所有和Text组件的绑定的脚本
-<<<<<<< Updated upstream
         Text skillText1 = dialogBox.moveTexts_public[0];
         skillText1.GetComponent<SkillText_1>().enabled = false;
         Text skillText2 = dialogBox.moveTexts_public[1];
@@ -41,15 +35,6 @@ public class SkillText_1 : TextBasic, SkillTextInterface {
         Text skillText3 = dialogBox.moveTexts_public[2];
         skillText3.GetComponent<SkillText_3>().enabled = false;
         Text skillText4 = dialogBox.moveTexts_public[3];
-=======
-        Text skillText1 = moveTexts[0];
-        skillText1.GetComponent<SkillText_1>().enabled = false;
-        Text skillText2 = moveTexts[1];
-        skillText2.GetComponent<SkillText_2>().enabled = false;
-        Text skillText3 = moveTexts[2];
-        skillText3.GetComponent<SkillText_3>().enabled = false;
-        Text skillText4 = moveTexts[3];
->>>>>>> Stashed changes
         skillText4.GetComponent<SkillText_4>().enabled = false;
 
         // 直接传入技能ID

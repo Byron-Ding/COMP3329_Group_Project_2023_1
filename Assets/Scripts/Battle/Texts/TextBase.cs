@@ -15,12 +15,7 @@ public class TextBasic : MonoBehaviour, IPointerClickHandler {
     public UnityEvent rightClick;
 
 
-<<<<<<< Updated upstream
     private void Start() {
-=======
-    public void Start() {
-        Debug.Log("kkk");
->>>>>>> Stashed changes
         leftClick.AddListener(new UnityAction(ButtonLeftClick));
         middleClick.AddListener(new UnityAction(ButtonMiddleClick));
         rightClick.AddListener(new UnityAction(ButtonRightClick));
@@ -39,7 +34,6 @@ public class TextBasic : MonoBehaviour, IPointerClickHandler {
     }
 
 
-<<<<<<< Updated upstream
     private void ButtonLeftClick() {
     }
 
@@ -47,15 +41,6 @@ public class TextBasic : MonoBehaviour, IPointerClickHandler {
     }
 
     private void ButtonRightClick() {
-=======
-    public void ButtonLeftClick() {
-    }
-
-    public void ButtonMiddleClick() {
-    }
-
-    public void ButtonRightClick() {
->>>>>>> Stashed changes
     }
 
 }
