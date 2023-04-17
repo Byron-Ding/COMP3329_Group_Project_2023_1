@@ -16,6 +16,9 @@ public class BattleSystem : MonoBehaviour
 
     [SerializeField] BattleDialogbox dialogBox;
 
+    [SerializeField] List<Text> actionTexts;
+    [SerializeField] List<Text> moveTexts;
+
     public event Action<bool> OnBattleOver;
 
     BattleState state;
@@ -46,7 +49,7 @@ public class BattleSystem : MonoBehaviour
         PlayerAction();
     }
     
-    void PlayerAction()
+    public void PlayerAction()
     {
         state = BattleState.PlayerAction;
 
@@ -65,10 +68,13 @@ public class BattleSystem : MonoBehaviour
         dialogBox.EnableMoveSelector(true);
     }
 
+<<<<<<< Updated upstream
     /**
      * 执行攻击动作
      * 
      */
+=======
+>>>>>>> Stashed changes
     public IEnumerator PerformPlayerMove()
     {
         state = BattleState.Busy;
@@ -138,12 +144,20 @@ public class BattleSystem : MonoBehaviour
     }
     void HandleActionSelection()
     {
+<<<<<<< Updated upstream
         // 临时启用 actionTexts上的脚本
         // fight
         Text fightText = dialogBox.actionTexts_public[0];
         fightText.GetComponent<FightText>().enabled = true;
         // run
         Text runText = dialogBox.actionTexts_public[1];
+=======
+        // 开启关联脚本
+        // 先暂时关闭 所有和Text组件的绑定的脚本
+        Text fightText = actionTexts[0];
+        fightText.GetComponent<FightText>().enabled = true;
+        Text runText = actionTexts[1];
+>>>>>>> Stashed changes
         runText.GetComponent<RunText>().enabled = true;
 
 
@@ -177,6 +191,7 @@ public class BattleSystem : MonoBehaviour
     }
     
     void HandleMoveSelection() {
+<<<<<<< Updated upstream
         // 绑定临时点击事件到moveTexts上
         Text skillText1 = dialogBox.moveTexts_public[0];
         skillText1.GetComponent<SkillText_1>().enabled = true;
@@ -188,6 +203,18 @@ public class BattleSystem : MonoBehaviour
         skillText4.GetComponent<SkillText_4>().enabled = true;
 
 
+=======
+        // 开启关联脚本 所有和Text组件的绑定的脚本
+        Text skillText1 = moveTexts[0];
+        skillText1.GetComponent<SkillText_1>().enabled = true;
+        Text skillText2 = moveTexts[1];
+        skillText2.GetComponent<SkillText_2>().enabled = true;
+        Text skillText3 = moveTexts[2];
+        skillText3.GetComponent<SkillText_3>().enabled = true;
+        Text skillText4 = moveTexts[3];
+        skillText4.GetComponent<SkillText_4>().enabled = true;
+
+>>>>>>> Stashed changes
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             if (currentMove < playerUnit.Pokemon.Moves.Count -1)

@@ -436,6 +436,17 @@ MonoBehaviour:
   playerHud: {fileID: 930723305}
   enemyHud: {fileID: 1904924466}
   dialogBox: {fileID: 2012211744}
+<<<<<<< Updated upstream
+=======
+  actionTexts:
+  - {fileID: 1068691108}
+  - {fileID: 1005664881}
+  moveTexts:
+  - {fileID: 295362879}
+  - {fileID: 1211756464}
+  - {fileID: 750417869}
+  - {fileID: 1142150266}
+>>>>>>> Stashed changes
   currentMove: 0
 --- !u!1 &287489207
 GameObject:
@@ -621,6 +632,17 @@ MonoBehaviour:
       m_Calls: []
   dialogBox: {fileID: 2012211744}
   battleSystem: {fileID: 243890294}
+<<<<<<< Updated upstream
+=======
+  actionTexts:
+  - {fileID: 1068691108}
+  - {fileID: 1005664881}
+  moveTexts:
+  - {fileID: 295362879}
+  - {fileID: 1211756464}
+  - {fileID: 750417869}
+  - {fileID: 1142150266}
+>>>>>>> Stashed changes
 --- !u!1 &319042995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,6 +1059,17 @@ MonoBehaviour:
       m_Calls: []
   dialogBox: {fileID: 2012211744}
   battleSystem: {fileID: 243890294}
+<<<<<<< Updated upstream
+=======
+  actionTexts:
+  - {fileID: 1068691108}
+  - {fileID: 1005664881}
+  moveTexts:
+  - {fileID: 295362879}
+  - {fileID: 1211756464}
+  - {fileID: 750417869}
+  - {fileID: 1142150266}
+>>>>>>> Stashed changes
 --- !u!1 &872181209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,6 +1465,12 @@ MonoBehaviour:
       m_Calls: []
   dialogBox: {fileID: 2012211744}
   battleSystem: {fileID: 243890294}
+<<<<<<< Updated upstream
+=======
+  actionTexts:
+  - {fileID: 1068691108}
+  - {fileID: 1005664881}
+>>>>>>> Stashed changes
 --- !u!1 &1072437511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,6 +1698,17 @@ MonoBehaviour:
       m_Calls: []
   dialogBox: {fileID: 2012211744}
   battleSystem: {fileID: 243890294}
+<<<<<<< Updated upstream
+=======
+  actionTexts:
+  - {fileID: 1068691108}
+  - {fileID: 1005664881}
+  moveTexts:
+  - {fileID: 295362879}
+  - {fileID: 1211756464}
+  - {fileID: 750417869}
+  - {fileID: 1142150266}
+>>>>>>> Stashed changes
 --- !u!1 &1163581848
 GameObject:
   m_ObjectHideFlags: 0
@@ -3278,6 +3328,17 @@ MonoBehaviour:
       m_Calls: []
   dialogBox: {fileID: 2012211744}
   battleSystem: {fileID: 243890294}
+<<<<<<< Updated upstream
+=======
+  actionTexts:
+  - {fileID: 1068691108}
+  - {fileID: 1005664881}
+  moveTexts:
+  - {fileID: 295362879}
+  - {fileID: 1211756464}
+  - {fileID: 750417869}
+  - {fileID: 1142150266}
+>>>>>>> Stashed changes
 --- !u!1 &1241199629
 GameObject:
   m_ObjectHideFlags: 0
