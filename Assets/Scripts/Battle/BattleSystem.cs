@@ -11,7 +11,7 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] BattleUnit enemyUnit;
     [SerializeField] BattleHud playerHud;
     [SerializeField] BattleHud enemyHud;
-
+    [SerializeField] PartyScreen partyScreen;
     [SerializeField] BattleDialogbox dialogBox;
 
     public event Action<bool> OnBattleOver;
@@ -38,6 +38,8 @@ public class BattleSystem : MonoBehaviour
         playerHud.SetData(playerUnit.Pokemon);
         enemyHud.SetData(enemyUnit.Pokemon);
 
+        partyScreen.Init();
+
         dialogBox.SetMoveNames(playerUnit.Pokemon.Moves);
 
         yield return dialogBox.TypeDialog($"A wild {enemyUnit.Pokemon.Base.Name} appeared.");
@@ -58,7 +60,12 @@ public class BattleSystem : MonoBehaviour
         dialogBox.EnableActionSelector(true);
 
     }
-
+    void OpenPartyScreen()
+    {
+        partyScreen.SetPartyData(playerParty.Pokemons);
+        partyScreen.gameObject.SetActive(true); 
+        //
+    }
     void PlayerMove()
     {
         state = BattleState.PlayerMove;
@@ -156,16 +163,27 @@ public class BattleSystem : MonoBehaviour
     }
     void HandleActionSelection()
     {
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (currentAction < 3)
+                currentAction++;
+
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            if (currentAction > 0)
+                currentAction--;
+        }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if (currentAction < 1)
-                ++currentAction;
-           
-        } 
-        else if(Input.GetKeyDown(KeyCode.UpArrow))
+            if (currentAction < 2)
+                currentAction += 2;
+
+        }
+        else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            if(currentAction>0)
-                --currentAction;
+            if (currentAction > 1)
+                currentAction -= 2;
         }
 
         dialogBox.UpdateActionSelection(currentAction);
@@ -179,7 +197,16 @@ public class BattleSystem : MonoBehaviour
             }
             else if(currentAction == 1)
             {
-                //run
+                // Capture
+            }
+            else if (currentAction == 2)
+            {
+                // Pokemon
+                OpenPartyScreen();
+            }
+            else if (currentAction == 3)
+            {
+                // Run
             }
         }
     }
@@ -215,6 +242,12 @@ public class BattleSystem : MonoBehaviour
             dialogBox.EnableMoveSelector(false);
             dialogBox.EnableDialogText(true);
             StartCoroutine(PerformPlayerMove());
+        }
+        else if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            dialogBox.EnableMoveSelector(false);
+            dialogBox.EnableDialogText(true);
+            PlayerAction();
         }
     }
 }
