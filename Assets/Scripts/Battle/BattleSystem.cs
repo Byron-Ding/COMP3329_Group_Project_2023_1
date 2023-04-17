@@ -197,12 +197,13 @@ public class BattleSystem : MonoBehaviour
             }
             else if(currentAction == 1)
             {
+                OpenPartyScreen();
                 // Capture
             }
             else if (currentAction == 2)
             {
                 // Pokemon
-                OpenPartyScreen();
+                
             }
             else if (currentAction == 3)
             {
