@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-public class StartUpButtonBase : MonoBehaviour, IPointerClickHandler {
+public class StartPageButtonBase : MonoBehaviour, IPointerClickHandler {
 
 
     // 左中右点击事件
@@ -15,14 +15,14 @@ public class StartUpButtonBase : MonoBehaviour, IPointerClickHandler {
 
 
     // Start is called before the first frame update
-    public void Start() {
+    public virtual void Start() {
         leftClick.AddListener(new UnityAction(MouseButtonLeftClick));
         middleClick.AddListener(new UnityAction(MouseButtonMiddleClick));
         rightClick.AddListener(new UnityAction(MouseButtonRightClick));
     }
 
     // Update is called once per frame
-    public void Update() {
+    public virtual void Update() {
 
     }
 
