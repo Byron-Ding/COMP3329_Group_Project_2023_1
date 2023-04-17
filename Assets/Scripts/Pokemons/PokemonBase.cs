@@ -14,15 +14,15 @@ public class PokemonBase : ScriptableObject
     [SerializeField] Sprite frontSprite;
     [SerializeField] Sprite backSprite;
 
-    [SerializeField] PokemonType type1;
-    [SerializeField] PokemonType type2;
+    //[SerializeField] PokemonType type1;
+    //[SerializeField] PokemonType type2;
 
     [SerializeField] int maxHp;
     [SerializeField] int attack;
     [SerializeField] int defense;
-    [SerializeField] int spAttack;
-    [SerializeField] int spDefense;
-    [SerializeField] int speed;
+    //[SerializeField] int spAttack;
+    //[SerializeField] int spDefense;
+    //[SerializeField] int speed;
 
     [SerializeField] List<LearnableMove> learnableMoves;
 
@@ -37,10 +37,7 @@ public class PokemonBase : ScriptableObject
     { get { return frontSprite; } }
     public Sprite BackSprite
     { get { return backSprite; } }
-    public PokemonType Type1
-    { get { return type1; } }
-    public PokemonType Type2
-    { get { return type2; } }
+
     public int MaxHp
     { get { return maxHp; } }
      
@@ -52,24 +49,6 @@ public class PokemonBase : ScriptableObject
     public int Defense
     {
         get { return defense; }
-    }
-
-    public int SpAttack
-    {
-        get { return spAttack; }
-    }
-
-    public int SpDefense
-    {
-        get { return spDefense; }
-    }
-
-    public int Speed
-    {
-        get
-        {
-            return speed;
-        }
     }
     public List<LearnableMove> LearnableMoves { get { return learnableMoves; } }
 }
@@ -83,17 +62,6 @@ public class LearnableMove
     public MoveBase Base { get { return moveBase; } }   
     public int Level { get { return level; } }  
 
-}
-
-public enum PokemonType
-{
-    None,
-    Normal,
-    Fire,
-    Water,
-    Grass,
-    Electric,
-    Ground 
 }
 
 
