@@ -5,6 +5,10 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
+using System.IO;
+using System;
+
+using Python.Runtime;
 
 
 
@@ -28,9 +32,43 @@ public class VolumeSilider_SettingPage_StartPage : MonoBehaviour
      float bgmVolume;
      float sfxVolume;
 
+    static void InitializePython() {
+        // 设置python文件夹路径
+        PythonEngine.PythonHome = "C:\\Program Files\\Python310";
+
+        // 初始化python引擎
+        PythonEngine.Initialize();
+    }
 
     // Start is called before the first frame update
     void Start() {
+        // 设置SVG颜色
+        // (彩蛋)
+        // 调用pythonnet
+
+        // 初始化python引擎
+        PythonEngine.Initialize();
+        using (Py.GIL()) {
+            dynamic os = Py.Import("os");
+
+            string current_path = Environment.CurrentDirectory;
+            // string current_path = os.getcwd();
+            Debug.Log(current_path);
+
+            // 转 "\" 为 "/"
+            current_path = current_path.Replace("\\", "/");
+            // 转 "//" 为 "/"
+            current_path = current_path.Replace("//", "/");
+            Debug.Log(current_path);
+            
+            dynamic sys = Py.Import("sys");
+            sys.path.append(current_path + "/Assets/Resources/StartPage_Related/Icons/");
+
+
+            dynamic ColorSettingPyScript = Py.Import("set_svg_color");
+            ColorSettingPyScript.main(current_path + "/Assets/Resources/StartPage_Related/Icons/");
+        }
+
         // 获取音量滑动条的初始值，传递变量
         audioMixer.GetFloat("Master", out masterVolume);
         audioMixer.GetFloat("BGM", out bgmVolume);

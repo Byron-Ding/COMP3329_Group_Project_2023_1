@@ -1,5 +1,6 @@
 from xml.dom.minidom import parse
 import json
+import os
 
 """
 读取 JSON 文件
@@ -15,17 +16,20 @@ import json
 """
 
 
-def get_color() -> dict:
-    with open('volumn_svg_color.json', 'r') as f:
+def get_color(py_current_path: str) -> dict:
+    with open(py_current_path + 'volumn_svg_color.json', 'r') as f:
         json_content: dict = json.load(f)
 
     return json_content["svg_files_color_setting"]
 
 
 # 更新 SVG（本质是XML） 文件的颜色
-def update_SVGs(file_and_colors: dict) -> None:
+def update_SVGs(file_and_colors: dict, py_current_path: str) -> None:
     # 遍历字典， key 是文件名， value 是颜色， 例如：volume-down.svg : #000000
     for each_file, each_color in file_and_colors.items():
+        # 纠正Unity工作目录
+        each_file = py_current_path + each_file
+        
         # 去除文件所有的缩进和换行，因为 minidom 会在写入文件时，自动添加缩进和换行
         remove_indent_and_newline(each_file)
 
@@ -54,5 +58,8 @@ def remove_indent_and_newline(file_name: str) -> None:
         f.write(content.replace('\n', '').replace('\t', ''))
 
 
-if __name__ == '__main__':
-    update_SVGs(get_color())
+def main(py_current_path: str) -> None:
+    update_SVGs(get_color(py_current_path), py_current_path)
+    
+if __name__ == "__main__":
+    main()
