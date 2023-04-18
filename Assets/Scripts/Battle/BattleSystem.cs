@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions.Must;
 
-public enum BattleState { Start, PlayerAction, PlayerMove, EnemyMove, Busy }
+public enum BattleState { Start, PlayerAction, PlayerMove, EnemyMove, Busy, PartyScreen }
 public class BattleSystem : MonoBehaviour
 {
     [SerializeField] BattleUnit playerUnit;
@@ -19,6 +19,7 @@ public class BattleSystem : MonoBehaviour
     BattleState state;
     int currentAction;  
     int currentMove;
+    int currentMember;
 
     PokemonParty playerParty;
     Pokemon wildPokemon;
@@ -62,6 +63,8 @@ public class BattleSystem : MonoBehaviour
     }
     void OpenPartyScreen()
     {
+        state = BattleState.PartyScreen;
+
         partyScreen.SetPartyData(playerParty.Pokemons);
         partyScreen.gameObject.SetActive(true); 
         //
@@ -125,16 +128,7 @@ public class BattleSystem : MonoBehaviour
             var nextPokemon = playerParty.GetHealthyPokemon();  
 
             if(nextPokemon != null) {
-
-                playerUnit.Setup(nextPokemon);
-                playerHud.SetData(nextPokemon);
-
-                dialogBox.SetMoveNames(nextPokemon.Moves);
-
-                yield return dialogBox.TypeDialog($"Go {nextPokemon.Base.Name}!");
-                yield return new WaitForSeconds(1f);
-
-                PlayerAction();
+                OpenPartyScreen();
 
             }
             else
@@ -158,6 +152,11 @@ public class BattleSystem : MonoBehaviour
         else if(state == BattleState.PlayerMove)
         {
             HandleMoveSelection();
+        }
+        else if (state == BattleState.PartyScreen)
+        {
+            HandlePartyScreenSelection();
+
         }
 
     }
@@ -250,5 +249,78 @@ public class BattleSystem : MonoBehaviour
             dialogBox.EnableDialogText(true);
             PlayerAction();
         }
+    }
+
+    void HandlePartyScreenSelection()
+    {
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            if (currentMember < playerParty.Pokemons.Count-1)
+                currentMember++;
+
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            if (currentMember > 0)
+                currentMember--;
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            if (currentMember < playerParty.Pokemons.Count - 2)
+                currentMember += 2;
+
+        }
+        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            if (currentMember > 1)
+                currentMember -= 2;
+        }
+
+        partyScreen.UpdateMemberSelection(currentMember);
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            var selectedMember = playerParty.Pokemons[currentMember];
+
+            if(selectedMember.HP<=0)
+            {
+                partyScreen.SetMessageText("You can't send out a fainted pokemon!");
+                return;
+            }
+            if(selectedMember == playerUnit.Pokemon)
+            {
+                partyScreen.SetMessageText("You can't switch with the same pokemon!");
+                return;
+            }
+            partyScreen.gameObject.SetActive(false);
+            state = BattleState.Busy;
+            StartCoroutine(SwitchPokemon(selectedMember));
+        }
+        else if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            partyScreen.gameObject.SetActive(false);
+            PlayerAction();
+        }
+    }
+
+    IEnumerator SwitchPokemon(Pokemon newPokemon)
+    {
+
+        if(playerUnit.Pokemon.HP >0)
+        {
+            yield return dialogBox.TypeDialog($"Come back {playerUnit.Pokemon.Base.Name}");
+            playerUnit.PlayFaintAnimation();
+
+            yield return new WaitForSeconds(1f);
+        }
+
+        
+        playerUnit.Setup(newPokemon);
+        playerHud.SetData(newPokemon);
+
+        dialogBox.SetMoveNames(newPokemon.Moves);
+
+        yield return dialogBox.TypeDialog($"Go {newPokemon.Base.Name}!");
+        StartCoroutine(EnemyMove());
     }
 }
