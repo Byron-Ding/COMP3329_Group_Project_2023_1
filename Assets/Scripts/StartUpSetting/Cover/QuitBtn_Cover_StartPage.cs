@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuitBtn_StartPage : StartPageButtonBase {
+public class QuitBtn_Cover_StartPage : StartPageButtonBase {
 
     // Start is called before the first frame update
     public override void Start() {
@@ -15,6 +15,8 @@ public class QuitBtn_StartPage : StartPageButtonBase {
     }
 
     public void QuitGame() {
+        // 同样思路的实现
+        /*
         // 如果是在编辑器中运行，就停止播放
         if (Application.isEditor) {
             UnityEditor.EditorApplication.isPlaying = false;
@@ -23,17 +25,14 @@ public class QuitBtn_StartPage : StartPageButtonBase {
         } else {
             Application.Quit();
         }
-
-
-        // 同样思路的实现
-        /*
-        #if UNITY_EDITOR
-                UnityEditor.EditorApplication.isPlaying = false;
-        #else
-                Application.Quit();
-
-        #endif
         */
+
+
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
 
 
     }

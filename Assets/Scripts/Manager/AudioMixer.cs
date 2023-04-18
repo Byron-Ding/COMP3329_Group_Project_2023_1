@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GuideBtn_StartPage : MonoBehaviour
+public class AudioMixer : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

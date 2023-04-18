@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Data_StartPage : MonoBehaviour
+public class PagesPackage_StartPage : MonoBehaviour
 {
 
+    public GameObject StartPage;
+    public GameObject SettingPage;
 
-    public static string player_name;
 
     // Start is called before the first frame update
     void Start()
     {
-
         
     }
 

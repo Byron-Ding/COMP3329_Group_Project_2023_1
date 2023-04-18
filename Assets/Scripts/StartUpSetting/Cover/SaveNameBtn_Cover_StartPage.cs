@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SaveNameBtn_StartPage : StartPageButtonBase {
+public class SaveNameBtn_Cover_StartPage : StartPageButtonBase {
 
     // Start is called before the first frame update
     public override void Start() {

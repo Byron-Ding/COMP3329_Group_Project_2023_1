@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SettingBtn_StartPage : MonoBehaviour
+public class GuideBtn_Cover_StartPage : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
