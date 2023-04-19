@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class StartBtn_Cover_StartPage : StartPageButtonBase {
+
+    public SceneLoader sceneLoader;
+
     // Start is called before the first frame update
     public override void Start() {
         base.Start();
@@ -20,12 +23,16 @@ public class StartBtn_Cover_StartPage : StartPageButtonBase {
     public override void MouseButtonLeftClick() {
         // 继承
         base.MouseButtonLeftClick();
+
+
         // 开始游戏
         PlayGame();
     }
 
     public void PlayGame() {
         // 加载下一个场景
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        sceneLoader.LoadSceneWithFadeInOutEffect(sceneName: SceneData.SENCE_NAME_GAME_PLAY);
+
+
     }
 }

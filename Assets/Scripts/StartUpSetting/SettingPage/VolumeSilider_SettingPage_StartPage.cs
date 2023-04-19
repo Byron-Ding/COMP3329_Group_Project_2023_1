@@ -15,7 +15,7 @@ using Python.Runtime;
 /// <summary>
 /// ÉèÖÃ¹ÜÀí
 /// </summary>
-public class VolumeSilider_SettingPage_StartPage : MonoBehaviour
+public class VolumeSilider_SettingPage_StartPage : PersistentSingleton<VolumeSilider_SettingPage_StartPage>
 {
     [Header("ÒôÆµ»ìÏìÆ÷")]
     public AudioMixer audioMixer;

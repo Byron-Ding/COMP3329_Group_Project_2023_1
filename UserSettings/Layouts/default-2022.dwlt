@@ -39,15 +39,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1114.4
+    x: 1113.6
     y: 0
-    width: 421.59998
-    height: 446.4
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+    width: 422.40002
+    height: 323.2
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
@@ -65,17 +65,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 846.4
+    x: 703.2
     y: 0
-    width: 268
-    height: 446.4
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
+    width: 410.39996
+    height: 323.2
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 21}
+  - {fileID: 14}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,13 +94,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 584
-    height: 276.4
+    width: 837.6
+    height: 399.59998
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 22}
+  - {fileID: 23}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -120,13 +121,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 446.4
+    y: 323.2
     width: 1536
-    height: 276.4
+    height: 399.59998
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 458
+  controlID: 85
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 46
+  controlID: 52
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,23 +162,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 584
+    x: 837.6
     y: 0
-    width: 952
-    height: 276.4
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 18}
+    width: 698.4
+    height: 399.59998
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 24}
   m_Panes:
-  - {fileID: 18}
-  - {fileID: 23}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 19}
+  - {fileID: 24}
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,7 +274,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 47
+  controlID: 53
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,11 +296,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1536
-    height: 446.4
+    height: 323.2
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 48
+  controlID: 54
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,20 +318,54 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 846.4
-    height: 446.4
+    width: 703.2
+    height: 323.2
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 22}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 22}
+  - {fileID: 18}
   - {fileID: 17}
   - {fileID: 16}
   - {fileID: 15}
-  - {fileID: 14}
   m_Selected: 0
-  m_LastSelected: 4
+  m_LastSelected: 3
 --- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 14000, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: "\u64A4\u6D88\u5386\u53F2\u8BB0\u5F55"
+    m_Image: {fileID: -1608452002797687582, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 703.2
+    y: 73.6
+    width: 408.39996
+    height: 427.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ShowLatestFirst: 1
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -345,7 +380,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: NugetForUnity.NugetWindow
+    m_Text: NuGet
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
@@ -364,239 +399,352 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   availablePackages:
-  - Id: pythonnet_netstandard_py39_win
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .NetStandard 2.0 and CPython 3.9 (win64)
-    DownloadCount: 4808
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_netstandard_py39_win/2.5.2
+  - Id: Newtonsoft.Json
+    Version: 13.0.3
+    Authors: James Newton-King
+    Description: Json.NET is a popular high-performance JSON framework for .NET
+    DownloadCount: 2147483647
+    DownloadUrl: https://www.nuget.org/api/v2/package/Newtonsoft.Json/13.0.3
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_netstandard_py39_win/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/newtonsoft.json/13.0.3/icon
+    LicenseUrl: https://www.nuget.org/packages/Newtonsoft.Json/13.0.3/license
+    ProjectUrl: https://www.newtonsoft.com/json
+    ReleaseNotes: 
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_netstandard_py39_win
-  - Id: pythonnet_py39_win
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .Net 4.0 and CPython 3.9 (win64)
-    DownloadCount: 2567
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_py39_win/2.5.2
+    Title: Json.NET
+  - Id: Microsoft.Extensions.DependencyInjection
+    Version: 7.0.0
+    Authors: Microsoft
+    Description: Default implementation of dependency injection for Microsoft.Extensions.DependencyInjection.
+    DownloadCount: 2068510258
+    DownloadUrl: https://www.nuget.org/api/v2/package/Microsoft.Extensions.DependencyInjection/7.0.0
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_py39_win/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/7.0.0/icon
+    LicenseUrl: https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection/7.0.0/license
+    ProjectUrl: https://dot.net/
+    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_py39_win
-  - Id: pythonnet_netstandard_py39_linux
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .NetStandard 2.0 and CPython 3.9 (linux)
-    DownloadCount: 4242
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_netstandard_py39_linux/2.5.2
+    Title: Microsoft.Extensions.DependencyInjection
+  - Id: Microsoft.Extensions.Logging
+    Version: 7.0.0
+    Authors: Microsoft
+    Description: Logging infrastructure default implementation for Microsoft.Extensions.Logging.
+    DownloadCount: 1939454485
+    DownloadUrl: https://www.nuget.org/api/v2/package/Microsoft.Extensions.Logging/7.0.0
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_netstandard_py39_linux/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/7.0.0/icon
+    LicenseUrl: https://www.nuget.org/packages/Microsoft.Extensions.Logging/7.0.0/license
+    ProjectUrl: https://dot.net/
+    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_netstandard_py39_linux
-  - Id: pythonnet_py39_osx
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .Net 4.0 and CPython 3.9 (osx)
-    DownloadCount: 323
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_py39_osx/2.5.2
+    Title: Microsoft.Extensions.Logging
+  - Id: System.Text.Json
+    Version: 7.0.2
+    Authors: Microsoft
+    Description: 'Provides high-performance and low-allocating types that serialize
+      objects to JavaScript Object Notation (JSON) text and deserialize JSON text
+      to objects, with UTF-8 support built-in. Also provides types to read and write
+      JSON text encoded as UTF-8, and to create an in-memory document object model
+      (DOM), that is read-only, for random access of the JSON elements within a structured
+      view of the data.
+
+
+      The System.Text.Json library is built-in as part
+      of the shared framework in .NET Runtime. The package can be installed when
+      you need to use it in other target frameworks.'
+    DownloadCount: 1007926045
+    DownloadUrl: https://www.nuget.org/api/v2/package/System.Text.Json/7.0.2
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_py39_osx/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/system.text.json/7.0.2/icon
+    LicenseUrl: https://www.nuget.org/packages/System.Text.Json/7.0.2/license
+    ProjectUrl: https://dot.net/
+    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_py39_osx
-  - Id: pythonnet_py39_linux
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .Net 4.0 and CPython 3.9 (linux)
-    DownloadCount: 311
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_py39_linux/2.5.2
+    Title: System.Text.Json
+  - Id: Microsoft.Bcl.AsyncInterfaces
+    Version: 7.0.0
+    Authors: Microsoft
+    Description: 'Provides the IAsyncEnumerable<T> and IAsyncDisposable interfaces
+      and helper types for .NET Standard 2.0. This package is not required starting
+      with .NET Standard 2.1 and .NET Core 3.0.
+
+
+      Commonly Used Types:
+
+      System.IAsyncDisposable
+
+      System.Collections.Generic.IAsyncEnumerable
+
+      System.Collections.Generic.IAsyncEnumerator'
+    DownloadCount: 856281531
+    DownloadUrl: https://www.nuget.org/api/v2/package/Microsoft.Bcl.AsyncInterfaces/7.0.0
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_py39_linux/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/7.0.0/icon
+    LicenseUrl: https://www.nuget.org/packages/Microsoft.Bcl.AsyncInterfaces/7.0.0/license
+    ProjectUrl: https://dot.net/
+    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_py39_linux
-  - Id: pythonnet_netstandard_py39_win_x86
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .NetStandard 2.0 and CPython 3.9 (win64)
-    DownloadCount: 673
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_netstandard_py39_win_x86/2.5.2
+    Title: Microsoft.Bcl.AsyncInterfaces
+  - Id: System.Drawing.Common
+    Version: 7.0.0
+    Authors: Microsoft
+    Description: 'Provides access to GDI+ graphics functionality.
+
+
+      Commonly
+      Used Types:
+
+      System.Drawing.Bitmap
+
+      System.Drawing.BitmapData
+
+      System.Drawing.Brush
+
+      System.Drawing.Font
+
+      System.Drawing.Graphics
+
+      System.Drawing.Icon
+
+
+      Since
+      .NET 7, non-Windows platforms are not supported, even with the runtime configuration
+      switch. See https://aka.ms/systemdrawingnonwindows for more information.'
+    DownloadCount: 746855738
+    DownloadUrl: https://www.nuget.org/api/v2/package/System.Drawing.Common/7.0.0
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_netstandard_py39_win_x86/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/system.drawing.common/7.0.0/icon
+    LicenseUrl: https://www.nuget.org/packages/System.Drawing.Common/7.0.0/license
+    ProjectUrl: https://dot.net/
+    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_netstandard_py39_win_x86
-  - Id: pythonnet_py39_win_x86
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .Net 4.0 and CPython 3.9 (win64)
-    DownloadCount: 461
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_py39_win_x86/2.5.2
+    Title: System.Drawing.Common
+  - Id: Serilog
+    Version: 2.12.0
+    Authors: Serilog Contributors
+    Description: Simple .NET logging with fully-structured events
+    DownloadCount: 729954315
+    DownloadUrl: https://www.nuget.org/api/v2/package/Serilog/2.12.0
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_py39_win_x86/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/serilog/2.12.0/icon
+    LicenseUrl: https://www.nuget.org/packages/Serilog/2.12.0/license
+    ProjectUrl: https://serilog.net/
+    ReleaseNotes: 
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_py39_win_x86
-  - Id: pythonnet_netstandard_py39_osx
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .NetStandard 2.0 and CPython 3.9 (osx)
-    DownloadCount: 324
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_netstandard_py39_osx/2.5.2
+    Title: Serilog
+  - Id: Microsoft.Win32.SystemEvents
+    Version: 7.0.0
+    Authors: Microsoft
+    Description: 'Provides access to Windows system event notifications.
+
+
+      Commonly
+      Used Types:
+
+      Microsoft.Win32.SystemEvents'
+    DownloadCount: 691946944
+    DownloadUrl: https://www.nuget.org/api/v2/package/Microsoft.Win32.SystemEvents/7.0.0
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_netstandard_py39_osx/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.win32.systemevents/7.0.0/icon
+    LicenseUrl: https://www.nuget.org/packages/Microsoft.Win32.SystemEvents/7.0.0/license
+    ProjectUrl: https://dot.net/
+    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_netstandard_py39_osx
-  - Id: pythonnet_netstandard_py39_osx_x86
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .NetStandard 2.0 and CPython 3.9 (osx)
-    DownloadCount: 299
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_netstandard_py39_osx_x86/2.5.2
+    Title: Microsoft.Win32.SystemEvents
+  - Id: Microsoft.EntityFrameworkCore
+    Version: 7.0.5
+    Authors: Microsoft
+    Description: 'Entity Framework Core is a modern object-database mapper for .NET.
+      It supports LINQ queries, change tracking, updates, and schema migrations.
+      EF Core works with SQL Server, Azure SQL Database, SQLite, Azure Cosmos DB,
+      MySQL, PostgreSQL, and other databases through a provider plugin API.
+
+
+      Commonly
+      Used Types:
+
+      Microsoft.EntityFrameworkCore.DbContext
+
+      Microsoft.EntityFrameworkCore.DbSet'
+    DownloadCount: 668914119
+    DownloadUrl: https://www.nuget.org/api/v2/package/Microsoft.EntityFrameworkCore/7.0.5
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_netstandard_py39_osx_x86/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/7.0.5/icon
+    LicenseUrl: https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/7.0.5/license
+    ProjectUrl: https://docs.microsoft.com/ef/core/
+    ReleaseNotes: 
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_netstandard_py39_osx_x86
-  - Id: pythonnet_netstandard_py39_linux_x86
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .NetStandard 2.0 and CPython 3.9 (linux)
-    DownloadCount: 303
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_netstandard_py39_linux_x86/2.5.2
+    Title: Microsoft.EntityFrameworkCore
+  - Id: Castle.Core
+    Version: 5.1.1
+    Authors: Castle Project Contributors
+    Description: Castle Core, including DynamicProxy, Logging Abstractions and DictionaryAdapter
+    DownloadCount: 558505175
+    DownloadUrl: https://www.nuget.org/api/v2/package/Castle.Core/5.1.1
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_netstandard_py39_linux_x86/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/castle.core/5.1.1/icon
+    LicenseUrl: https://www.nuget.org/packages/Castle.Core/5.1.1/license
+    ProjectUrl: http://www.castleproject.org/
+    ReleaseNotes: 
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_netstandard_py39_linux_x86
-  - Id: pythonnet_py39_osx_x86
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .Net 4.0 and CPython 3.9 (osx)
-    DownloadCount: 303
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_py39_osx_x86/2.5.2
+    Title: Castle.Core
+  - Id: System.Windows.Extensions
+    Version: 7.0.0
+    Authors: Microsoft
+    Description: 'Provides miscellaneous Windows-specific types
+
+
+      Commonly
+      Used Types:
+
+      System.Security.Cryptography.X509Certificates.X509Certificate2UI
+
+      System.Security.Cryptography.X509Certificates.X509SelectionFlag'
+    DownloadCount: 556282923
+    DownloadUrl: https://www.nuget.org/api/v2/package/System.Windows.Extensions/7.0.0
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_py39_osx_x86/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/system.windows.extensions/7.0.0/icon
+    LicenseUrl: https://www.nuget.org/packages/System.Windows.Extensions/7.0.0/license
+    ProjectUrl: https://dot.net/
+    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_py39_osx_x86
-  - Id: pythonnet_py39_linux_x86
-    Version: 2.5.2
-    Authors: pythonnet
-    Description: Python and CLR (.NET and Mono) cross-platform language interop.
-      Compiled against .Net 4.0 and CPython 3.9 (linux)
-    DownloadCount: 294
-    DownloadUrl: https://www.nuget.org/api/v2/package/pythonnet_py39_linux_x86/2.5.2
+    Title: System.Windows.Extensions
+  - Id: Azure.Core
+    Version: 1.31.0
+    Authors: Microsoft
+    Description: This is the implementation of the Azure Client Pipeline
+    DownloadCount: 503944771
+    DownloadUrl: https://www.nuget.org/api/v2/package/Azure.Core/1.31.0
     icon: {fileID: 0}
-    IconUrl: https://api.nuget.org/v3-flatcontainer/pythonnet_py39_linux_x86/2.5.2/icon
-    LicenseUrl: https://github.com/pythonnet/pythonnet/blob/master/LICENSE
-    ProjectUrl: https://github.com/pythonnet/pythonnet
-    ReleaseNotes: Packaged for Nuget by Henon aka Meinrad Recheis. Please get the
-      release notes from the project site
+    IconUrl: https://api.nuget.org/v3-flatcontainer/azure.core/1.31.0/icon
+    LicenseUrl: https://www.nuget.org/packages/Azure.Core/1.31.0/license
+    ProjectUrl: https://github.com/Azure/azure-sdk-for-net/blob/Azure.Core_1.31.0/sdk/core/Azure.Core/README.md
+    ReleaseNotes: https://github.com/Azure/azure-sdk-for-net/blob/Azure.Core_1.31.0/sdk/core/Azure.Core/CHANGELOG.md
     RepositoryBranch: 
     RepositoryCommit: 
     RepositoryType: 0
     RepositoryUrl: 
     Summary: 
-    Title: pythonnet_py39_linux_x86
-  defaultIcon: {fileID: 0}
-  hasRefreshed: 0
+    Title: Azure.Core
+  - Id: Microsoft.Identity.Client
+    Version: 4.53.0
+    Authors: Microsoft
+    Description: "This package contains the binaries of the Microsoft Authentication
+      Library for .NET (MSAL.NET).\n      MSAL.NET makes it easy to obtain tokens
+      from the Microsoft identity platform for developers (formally Azure AD v2.0)
+      signing-in users with work & school accounts, Microsoft personal accounts,
+      and social identities via Azure AD B2C. These tokens provide access to Microsoft
+      Cloud API and any other API secured by the Microsoft identity platform. This
+      version supports adding authentication functionality to your .NET based clients
+      - .NET, .NET Framework, .NET MAUI, Xamarin iOS, Xamarin Android and UWP"
+    DownloadCount: 503760830
+    DownloadUrl: https://www.nuget.org/api/v2/package/Microsoft.Identity.Client/4.53.0
+    icon: {fileID: 0}
+    IconUrl: 
+    LicenseUrl: https://www.nuget.org/packages/Microsoft.Identity.Client/4.53.0/license
+    ProjectUrl: https://go.microsoft.com/fwlink/?linkid=844761
+    ReleaseNotes: The release notes are available at https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/releases
+      and the roadmap at https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/wiki#roadmap.
+      To provide feedback, fill-in the survey at https://ncv.microsoft.com/JrXkdySi0m.
+    RepositoryBranch: 
+    RepositoryCommit: 
+    RepositoryType: 0
+    RepositoryUrl: 
+    Summary: 
+    Title: Microsoft Authentication Library for .NET
+  - Id: AWSSDK.Core
+    Version: 3.7.106.21
+    Authors: Amazon Web Services
+    Description: The Amazon Web Services SDK for .NET - Core Runtime
+    DownloadCount: 453902448
+    DownloadUrl: https://www.nuget.org/api/v2/package/AWSSDK.Core/3.7.106.21
+    icon: {fileID: 0}
+    IconUrl: https://api.nuget.org/v3-flatcontainer/awssdk.core/3.7.106.21/icon
+    LicenseUrl: http://aws.amazon.com/apache2.0/
+    ProjectUrl: https://github.com/aws/aws-sdk-net/
+    ReleaseNotes: 
+    RepositoryBranch: 
+    RepositoryCommit: 
+    RepositoryType: 0
+    RepositoryUrl: 
+    Summary: 
+    Title: AWSSDK - Core Runtime
+  - Id: Microsoft.Extensions.Http
+    Version: 7.0.0
+    Authors: Microsoft
+    Description: 'The HttpClient factory is a pattern for configuring and retrieving
+      named HttpClients in a composable way. The HttpClient factory provides extensibility
+      to plug in DelegatingHandlers that address cross-cutting concerns such as service
+      location, load balancing, and reliability. The default HttpClient factory provides
+      built-in diagnostics and logging and manages the lifetimes of connections in
+      a performant way.
+
+
+      Commonly Used Types:
+
+      System.Net.Http.IHttpClientFactory'
+    DownloadCount: 444519208
+    DownloadUrl: https://www.nuget.org/api/v2/package/Microsoft.Extensions.Http/7.0.0
+    icon: {fileID: 0}
+    IconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.extensions.http/7.0.0/icon
+    LicenseUrl: https://www.nuget.org/packages/Microsoft.Extensions.Http/7.0.0/license
+    ProjectUrl: https://dot.net/
+    ReleaseNotes: https://go.microsoft.com/fwlink/?LinkID=799421
+    RepositoryBranch: 
+    RepositoryCommit: 
+    RepositoryType: 0
+    RepositoryUrl: 
+    Summary: 
+    Title: Microsoft.Extensions.Http
+  defaultIcon: {fileID: 2800000, guid: 0efa0a38ec1ce484896502259d7ee8f7, type: 3}
+  hasRefreshed: 1
   numberToSkip: 0
   updatePackages: []
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -618,7 +766,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 846.2
+    width: 845.4
     height: 425.4
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -629,7 +777,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -649,10 +797,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 322.6667
-    y: 72.66667
-    width: 977.3334
-    height: 527.6667
+    x: 0
+    y: 73.6
+    width: 845.4
+    height: 425.4
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -662,7 +810,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -702,7 +850,7 @@ MonoBehaviour:
   m_SelectedObject: {fileID: 0}
   m_SelectedSpriteRectGUID: 00000000000000000000000000000000
   m_LastUsedModuleTypeName: 
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -722,10 +870,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 584
-    y: 520
-    width: 951
-    height: 255.4
+    x: 837.60004
+    y: 396.80002
+    width: 697.4
+    height: 378.59998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -748,23 +896,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/StartPage_Related/Icons
+    - Assets/Scripts/StartUpSetting/SettingPage
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/StartPage_Related/Icons
+  - Assets/Scripts/StartUpSetting/SettingPage
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub Projects\COMP3329_Group_Project_2023_1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 356.59998}
-    m_SelectedIDs: 807e0000
-    m_LastClickedID: 32384
-    m_ExpandedIDs: 000000005c7e00005e7e0000607e0000627e0000647e00007e7e0000847e0000927e0000947e0000967e0000a27e0000b47e0000c27e0000f2ab00000aac00000eac0000d0b4000000ca9a3b
+    scrollPos: {x: 0, y: 413.40002}
+    m_SelectedIDs: 50870000
+    m_LastClickedID: 34640
+    m_ExpandedIDs: 00000000f6860000f8860000fa860000fc860000fe86000000870000028700000487000006870000088700000a8700000c8700000e8700001087000012870000148700002687000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -792,7 +940,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005c7e00005e7e0000607e0000627e0000647e0000
+    m_ExpandedIDs: 00000000f6860000f8860000fa860000fc860000fe86000000870000028700000487000006870000088700000a8700000c8700000e870000108700001287000014870000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -817,24 +965,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 5e180000
+    m_LastClickedInstanceID: 6238
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300005c8700001a8b0000ee610000e26100005462000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: pythonnet_netstandard_py39_win.2.5.2
-      m_OriginalName: pythonnet_netstandard_py39_win.2.5.2
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 44018
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
@@ -848,7 +996,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 155
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -868,10 +1016,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1114.4
+    x: 1113.6
     y: 73.6
-    width: 420.59998
-    height: 425.4
+    width: 421.40002
+    height: 302.2
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -894,7 +1042,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &20
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -914,10 +1062,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 846.4
+    x: 703.2
     y: 73.6
-    width: 266
-    height: 425.4
+    width: 408.39996
+    height: 302.2
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -929,10 +1077,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 60}
-      m_SelectedIDs: 8e7c0000
-      m_LastClickedID: 31886
-      m_ExpandedIDs: 16fbffff9e7a0000dc7a0000fe7a00008c7b0000a27b0000b27b0000e07b0000067c00006a7c00007e7c00008e7c0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: c04ffeff6661feff186dfeff9200ffff5201ffff8635ffff8c35ffffe66affffec6afffff2d5ffffa0d7fffff4ffffff5a8300008e830000a6830000aa830000be830000fa8300006c84000088840000be8400002e850000bc1d0100e01d0100821e0100961e0100cc1e0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -956,7 +1104,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &21
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -978,8 +1126,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 845.4
-    height: 425.4
+    width: 702.2
+    height: 302.2
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1072,7 +1220,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: 86}
+      snapOffset: {x: 67.5, y: 28.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Orientation
@@ -1293,7 +1441,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 1
       displayed: 1
-      snapOffset: {x: 199.59998, y: 98.79996}
+      snapOffset: {x: 199.59998, y: 2.4000015}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: AINavigationOverlay
@@ -1389,9 +1537,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 442.0868, y: 366.17252, z: -1.6005312}
+    m_Target: {x: 609.4872, y: 413.5112, z: -2.072936}
     speed: 2
-    m_Value: {x: 442.0868, y: 366.17252, z: -1.6005312}
+    m_Value: {x: 609.4872, y: 413.5112, z: -2.072936}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1441,9 +1589,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 380.5035
+    m_Target: 609.03894
     speed: 2
-    m_Value: 380.5035
+    m_Value: 609.03894
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1468,7 +1616,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &22
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1489,9 +1637,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 520
-    width: 583
-    height: 255.4
+    y: 396.80002
+    width: 836.6
+    height: 378.59998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1543,29 +1691,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 583
-      height: 234.4
-    m_Scale: {x: 0.38151038, y: 0.38151038}
-    m_Translation: {x: 291.5, y: 117.19999}
+      width: 836.6
+      height: 357.59998
+    m_Scale: {x: 0.5820312, y: 0.5820312}
+    m_Translation: {x: 418.3, y: 178.79999}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -764.06836
+      x: -718.69
       y: -307.2
-      width: 1528.1367
+      width: 1437.38
       height: 614.4
     m_MinimalGUI: 1
-  m_defaultScale: 0.38151038
-  m_LastWindowPixelSize: {x: 728.75, y: 319.25}
+  m_defaultScale: 0.5820312
+  m_LastWindowPixelSize: {x: 1045.75, y: 473.24997}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &23
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1585,10 +1733,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 584
-    y: 520
-    width: 951
-    height: 255.4
+    x: 837.60004
+    y: 396.80002
+    width: 697.4
+    height: 378.59998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
