@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions.Must;
 
-public enum BattleState { Start, PlayerAction, PlayerMove, EnemyMove, Busy, PartyScreen }
+public enum BattleState { Start, PlayerAction, PlayerMove, EnemyMove, Busy, PartyScreen, BattleOver }
 public class BattleSystem : MonoBehaviour
 {
     [SerializeField] BattleUnit playerUnit;
@@ -51,7 +51,14 @@ public class BattleSystem : MonoBehaviour
 
         PlayerAction();
     }
-    
+
+    void BattleOver(bool won)
+    {
+        state = BattleState.BattleOver;
+
+        OnBattleOver(won);      
+    }
+
     void PlayerAction()
     {
         state = BattleState.PlayerAction;
@@ -96,6 +103,27 @@ public class BattleSystem : MonoBehaviour
             yield return dialogBox.TypeDialog($"{enemyUnit.Pokemon.Base.Name} Fainted");
             enemyUnit.PlayFaintAnimation();
             yield return new WaitForSeconds(1f);
+
+            int expYield = enemyUnit.Pokemon.Base.ExpYield;
+            int enemyLevel = enemyUnit.Pokemon.Level;
+
+            int expGain = Mathf.FloorToInt((expYield * enemyLevel) / 5);
+
+            playerUnit.Pokemon.Exp += expGain;
+
+            yield return dialogBox.TypeDialog($"{playerUnit.Pokemon.Base.Name} gained {expGain} exp");
+
+            yield return playerHud.SetExpSmooth();
+
+
+            yield return new WaitForSeconds(2f);
+
+            while(playerUnit.Pokemon.CheckForLevelUp())
+            {
+                playerHud.SetLevel();
+                yield return dialogBox.TypeDialog($"{playerUnit.Pokemon.Base.Name} level up to Lvl{playerUnit.Pokemon.Level}!");
+                yield return playerHud.SetExpSmooth(true);
+            }
             OnBattleOver(true);
         }
         else
@@ -158,6 +186,10 @@ public class BattleSystem : MonoBehaviour
             HandlePartyScreenSelection();
 
         }
+        else if(state == BattleState.BattleOver)
+        {
+            TryToEscape();
+        }
 
     }
     void HandleActionSelection()
@@ -206,6 +238,7 @@ public class BattleSystem : MonoBehaviour
             }
             else if (currentAction == 3)
             {
+                BattleOver(true);
                 // Run
             }
         }
@@ -322,5 +355,13 @@ public class BattleSystem : MonoBehaviour
 
         yield return dialogBox.TypeDialog($"Go {newPokemon.Base.Name}!");
         StartCoroutine(EnemyMove());
+    }
+    IEnumerator TryToEscape()
+    {
+        state = BattleState.Busy;
+
+        yield return dialogBox.TypeDialog($"Run away safely!");
+
+        OnBattleOver(false);
     }
 }

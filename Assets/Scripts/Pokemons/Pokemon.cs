@@ -10,7 +10,7 @@ public class Pokemon
 
     public PokemonBase Base { get { return _base; } }   
     public int Level { get { return level; } }  
-
+    public int Exp { get; set; }
     public int HP { get; set; }
     public List<Move> Moves { get; set; }
     public void Init()
@@ -26,8 +26,19 @@ public class Pokemon
             if (Moves.Count >= 4)
                 break;
         }
-    }
 
+        Exp = Base.GetExpForLevel(Level);
+    }
+    public bool CheckForLevelUp()
+    {
+        if( Exp > Base.GetExpForLevel(level+1))
+        {
+            level++;
+
+            return true;
+        }
+        return false;
+    }
     public int Attack
     {
         get { return Mathf.FloorToInt((Base.Attack * Level) / 100f) + 5; }

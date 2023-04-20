@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 68101834d617f42458f68c963d6b13d1, type: 3}
-  m_Name: 2119BalancedTree
+  m_Name: FinalAI
   m_EditorClassIdentifier: 
-  name: BalencedTree
+  name: Csatan
   description: 
-  frontSprite: {fileID: 21300000, guid: 51c373ad3aa294e45b1a4d58c3365329, type: 3}
-  backSprite: {fileID: 21300000, guid: 911b15405173594458ea53a6641a0dfd, type: 3}
-  maxHp: 45
-  attack: 49
-  defense: 49
-  expYield: 64
-  growthRate: 0
+  frontSprite: {fileID: 21300000, guid: 85bb01cbbab1ea447ab87ef88e0e2347, type: 3}
+  backSprite: {fileID: 21300000, guid: 85bb01cbbab1ea447ab87ef88e0e2347, type: 3}
+  maxHp: 300
+  attack: 150
+  defense: 150
+  expYield: 1000
+  growthRate: 1
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: b66ccf3116ceaf64e8ef26cf1cf2470a, type: 2}
     level: 1
