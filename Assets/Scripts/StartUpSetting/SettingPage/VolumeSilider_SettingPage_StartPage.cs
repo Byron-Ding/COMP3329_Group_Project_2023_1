@@ -53,13 +53,13 @@ public class VolumeSilider_SettingPage_StartPage : PersistentSingleton<VolumeSil
 
             string current_path = Environment.CurrentDirectory;
             // string current_path = os.getcwd();
-            Debug.Log(current_path);
+            // Debug.Log(current_path);
 
             // ת "\" Ϊ "/"
             current_path = current_path.Replace("\\", "/");
             // ת "//" Ϊ "/"
             current_path = current_path.Replace("//", "/");
-            Debug.Log(current_path);
+            // Debug.Log(current_path);
             
             dynamic sys = Py.Import("sys");
             sys.path.append(current_path + "/Assets/Resources/StartPage_Related/Icons/");
