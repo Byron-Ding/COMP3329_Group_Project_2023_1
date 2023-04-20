@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Diagnostics;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
@@ -44,6 +45,14 @@ public class SaveNameBtn_Cover_StartPage : StartPageButtonBase {
 
         // 获取输入框内容
         string inputtedName = textNameInputFieldText_Cover_StartPage.text;
+
+        // 彩蛋（如果输入 HKU Pressure）
+        if (inputtedName == "HKU Pressure") {
+
+
+            // 让Unity 强制崩溃
+            UnityEngine.Diagnostics.Utils.ForceCrash(ForcedCrashCategory.AccessViolation);
+        }
 
         // 传入信息储存的类
         data_StartPage.player_name = inputtedName;
