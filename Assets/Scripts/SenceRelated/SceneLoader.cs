@@ -66,8 +66,10 @@ public class SceneLoader : PersistentSingleton<SceneLoader>
             // 挂起，等待一帧
             yield return null;
         }
+
         // 关闭上个场景
         transform.root.gameObject.SetActive(false);
+        transform.root.Find("Canvas").gameObject.SetActive(false);
 
         // 淡出完成之后，再显示所需要的场景(之前异步加载)
         loadingOperation.allowSceneActivation = true;
