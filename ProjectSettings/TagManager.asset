@@ -15,9 +15,9 @@ TagManager:
   - BackGroud_UP
   - SolidObjects
   - LongGrass
-  - 
-  - 
-  - 
+  - Interactable
+  - Player
+  - Portal
   - 
   - 
   - 
@@ -44,15 +44,15 @@ TagManager:
   - name: Background
     uniqueID: 875337489
     locked: 0
-  - name: BackGroud_UP
-    uniqueID: 3991776069
-    locked: 0
   - name: Foreground
     uniqueID: 597437763
     locked: 0
-  - name: SolidObject
-    uniqueID: 530993399
-    locked: 0
   - name: Player
     uniqueID: 3249797623
+    locked: 0
+  - name: BackGroud_UP
+    uniqueID: 3991776069
+    locked: 0
+  - name: SolidObject
+    uniqueID: 530993399
     locked: 0
