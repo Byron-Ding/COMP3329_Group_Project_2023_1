@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class SettingBtn_Cover_StartPage : StartPageButtonBase
 {
-    public GameObject StartPage;
-    public GameObject SettingPage;
+    public SceneData sceneData;
 
     // Start is called before the first frame update
     public override void Start() {
@@ -23,9 +22,9 @@ public class SettingBtn_Cover_StartPage : StartPageButtonBase
      */
     public void ShowSettingPage() {
         // 隐藏原先界面
-        StartPage.SetActive(false);
+        sceneData.Cover_StartPage.SetActive(false);
         // 显示设置界面
-        SettingPage.SetActive(true);
+        sceneData.SettingPage_StartPage.SetActive(true);
 
     }
 

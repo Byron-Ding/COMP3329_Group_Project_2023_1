@@ -30,7 +30,7 @@ public class SaveNameBtn_Cover_StartPage : StartPageButtonBase {
      */
     public void SaveName() {
 
-        GameObject root = GameObject.Find("Canvas");
+        GameObject root = GameObject.Find("Canvas_StartPage");
         GameObject Cover_StartPage = root.transform.Find("Cover_StartPage").gameObject;
         GameObject Name_Setting_Cover_StartPage = Cover_StartPage.transform.Find("Name_Setting_Cover_StartPage").gameObject;
         GameObject NameInputField_Cover_StartPage = Name_Setting_Cover_StartPage.transform.Find("NameInputField_Cover_StartPage").gameObject;

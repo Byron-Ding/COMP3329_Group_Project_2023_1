@@ -34,7 +34,7 @@ public class SceneLoader : PersistentSingleton<SceneLoader>
      * 淡入效果
      * 用于加载场景
      */
-    public IEnumerator LoadCoroutine(string sceneName) {
+    public IEnumerator LoadCoroutine(string sceneName, GameObject scene = null) {
 
         // 画面中间会卡一下，是因为 SceneManager.LoadScene(sceneName) 函数问题
         // 用这个函数加载场景，会在加载场景的同时，把当前场景的所有对象都销毁掉
@@ -68,8 +68,10 @@ public class SceneLoader : PersistentSingleton<SceneLoader>
         }
 
         // 关闭上个场景
-        transform.root.gameObject.SetActive(false);
-        transform.root.Find("Canvas").gameObject.SetActive(false);
+        // transform.root.gameObject.SetActive(false);
+        if (scene != null) {
+            scene.SetActive(false);
+        }
 
         // 淡出完成之后，再显示所需要的场景(之前异步加载)
         loadingOperation.allowSceneActivation = true;
@@ -93,8 +95,8 @@ public class SceneLoader : PersistentSingleton<SceneLoader>
         transitionImage.gameObject.SetActive(false);
 
     }
-    public void LoadSceneWithFadeInOutEffect(string sceneName) {
+    public void LoadSceneWithFadeInOutEffect(string sceneName, GameObject scene) {
         // 淡入效果
-        StartCoroutine(LoadCoroutine(sceneName));
+        StartCoroutine(LoadCoroutine(sceneName, scene));
     }
 }

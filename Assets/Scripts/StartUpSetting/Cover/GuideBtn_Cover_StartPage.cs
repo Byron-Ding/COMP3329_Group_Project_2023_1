@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class GuideBtn_Cover_StartPage : StartPageButtonBase
 {
+    public SceneData sceneData;
+
+
     // Start is called before the first frame update
     public override void Start()
     {
@@ -45,5 +48,28 @@ public class GuideBtn_Cover_StartPage : StartPageButtonBase
 
             EasterEggPyScript.open_url_hku_homepage();
         }
+    }
+
+    /*
+     * 切换页面
+     */
+    private void SwitchPage() {
+        // 隐藏原先界面
+        sceneData.Cover_StartPage.SetActive(false);
+        // 显示Guide界面
+        sceneData.GuidePage_StartPage.SetActive(true);
+    }
+
+    /*
+     * <summary>
+     * 鼠标左键，隐藏当前页面
+     * 显示Guide页面
+     * </summary>
+     */
+    public override void MouseButtonLeftClick() {
+        base.MouseButtonLeftClick();
+
+        // 切换页面
+        SwitchPage();
     }
 }
