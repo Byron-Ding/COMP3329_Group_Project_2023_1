@@ -565,8 +565,13 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< HEAD
   metroPackageName: Template_2D
   metroPackageVersion: 
+=======
+  metroPackageName: 2DBuiltInRenderer
+  metroPackageVersion: 1.0.0.0
+>>>>>>> GUI_DZD
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -574,7 +579,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Template_2D
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: pokemon
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -634,7 +639,18 @@ PlayerSettings:
   luminVersion:
     m_VersionCode: 1
     m_VersionName: 
+<<<<<<< HEAD
   apiCompatibilityLevel: 6
+=======
+  hmiPlayerDataPath: 
+  hmiForceSRGBBlit: 1
+  embeddedLinuxEnableGamepadInput: 1
+  hmiLogStartupTiming: 0
+  hmiCpuConfiguration: 
+  apiCompatibilityLevel: 3
+  activeInputHandler: 0
+  windowsGamepadBackendHint: 0
+>>>>>>> GUI_DZD
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   projectName: 
