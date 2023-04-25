@@ -7020,6 +7020,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LocationPortal
       objectReference: {fileID: 0}
+    - target: {fileID: 2723481369572877910, guid: 436c2289307c4714389924cede284904,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2723481369572877911, guid: 436c2289307c4714389924cede284904,
         type: 3}
       propertyPath: m_Size.x
