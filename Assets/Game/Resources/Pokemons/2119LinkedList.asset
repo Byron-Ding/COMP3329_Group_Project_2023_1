@@ -9,22 +9,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68101834d617f42458f68c963d6b13d1, type: 3}
+  m_Script: {fileID: 11500000, guid: e5aa4a7f37a22714c9924381e9ade610, type: 3}
   m_Name: 2119LinkedList
   m_EditorClassIdentifier: 
-  name: LinkedList
+  name: Linked List
   description: 
   frontSprite: {fileID: 21300000, guid: 63bfa562d334eb341aa96e07d3cc9841, type: 3}
   backSprite: {fileID: 21300000, guid: d24279e41ca5c5240b12a9da32d557b8, type: 3}
+  type1: 1
+  type2: 1
   maxHp: 45
-  attack: 49
-  defense: 49
-  expYield: 64
+  attack: 55
+  defense: 25
+  spAttack: 65
+  spDefense: 65
+  speed: 60
+  catchRate: 255
+  expYield: 90
   growthRate: 0
   learnableMoves:
-  - moveBase: {fileID: 11400000, guid: b66ccf3116ceaf64e8ef26cf1cf2470a, type: 2}
+  - moveBase: {fileID: 11400000, guid: b11fd84dbe88f6d4494184661776cad7, type: 2}
     level: 1
-  - moveBase: {fileID: 11400000, guid: 4c7da73e706f2dd4895e40cb7167eea9, type: 2}
-    level: 5
-  - moveBase: {fileID: 11400000, guid: 0884a5c919a9589478a30f0cd3735bc6, type: 2}
+  - moveBase: {fileID: 11400000, guid: 02c6d11b135ff3045b0820a9f2cd5376, type: 2}
     level: 7
+  - moveBase: {fileID: 11400000, guid: a16fbc7b9f9dd2f498e2ea284822a191, type: 2}
+    level: 11
+  learnableByItems: []
+  evolutions: []

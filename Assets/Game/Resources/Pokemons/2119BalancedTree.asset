@@ -9,24 +9,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68101834d617f42458f68c963d6b13d1, type: 3}
+  m_Script: {fileID: 11500000, guid: e5aa4a7f37a22714c9924381e9ade610, type: 3}
   m_Name: 2119BalancedTree
   m_EditorClassIdentifier: 
-  name: BalencedTree
+  name: BalancedTree
   description: 
   frontSprite: {fileID: 21300000, guid: 51c373ad3aa294e45b1a4d58c3365329, type: 3}
   backSprite: {fileID: 21300000, guid: 911b15405173594458ea53a6641a0dfd, type: 3}
+  type1: 1
+  type2: 1
   maxHp: 45
-  attack: 49
-  defense: 49
-  expYield: 64
+  attack: 40
+  defense: 40
+  spAttack: 65
+  spDefense: 65
+  speed: 45
+  catchRate: 255
+  expYield: 90
   growthRate: 0
   learnableMoves:
-  - moveBase: {fileID: 11400000, guid: b66ccf3116ceaf64e8ef26cf1cf2470a, type: 2}
+  - moveBase: {fileID: 11400000, guid: b11fd84dbe88f6d4494184661776cad7, type: 2}
     level: 1
-  - moveBase: {fileID: 11400000, guid: 4c7da73e706f2dd4895e40cb7167eea9, type: 2}
-    level: 5
-  - moveBase: {fileID: 11400000, guid: a3ec824ffe2777941aa1f0bb95827bb9, type: 2}
+  - moveBase: {fileID: 11400000, guid: 02c6d11b135ff3045b0820a9f2cd5376, type: 2}
     level: 7
-  - moveBase: {fileID: 11400000, guid: 3ffb26be197e79c4cb26254f83f7e5e9, type: 2}
+  - moveBase: {fileID: 11400000, guid: 41c88dc46a1a4e04db4afd980281976c, type: 2}
     level: 11
+  - moveBase: {fileID: 11400000, guid: b3c42655392f5a14a9c4073b8a7dfa3d, type: 2}
+    level: 15
+  - moveBase: {fileID: 11400000, guid: 1e253e69e3c46ac46a0c6560ca53ee82, type: 2}
+    level: 4
+  learnableByItems: []
+  evolutions: []

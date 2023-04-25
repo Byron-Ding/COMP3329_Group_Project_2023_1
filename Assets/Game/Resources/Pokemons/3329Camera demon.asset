@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aa4a7f37a22714c9924381e9ade610, type: 3}
+  m_Name: 3329Camera demon
+  m_EditorClassIdentifier: 
+  name: CameraDemon
+  description: 
+  frontSprite: {fileID: 21300000, guid: 9ba67189d42ada8458848dcdc008d1b8, type: 3}
+  backSprite: {fileID: 21300000, guid: 166b7aee823923942a6280b70efeeb34, type: 3}
+  type1: 1
+  type2: 1
+  maxHp: 55
+  attack: 50
+  defense: 50
+  spAttack: 65
+  spDefense: 65
+  speed: 50
+  catchRate: 255
+  expYield: 180
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f457436615bd89c4a9bede31d3190836, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d9e67331ef4f4834187095a5d2c2b064, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 01721b521cae4194fbb2c55bad0022ce, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 129ea1e5f67db7d4b86680442d32757c, type: 2}
+    level: 13
+  learnableByItems: []
+  evolutions: []

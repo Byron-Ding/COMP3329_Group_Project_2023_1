@@ -9,24 +9,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68101834d617f42458f68c963d6b13d1, type: 3}
-  m_Name: 2120harddisk
+  m_Script: {fileID: 11500000, guid: e5aa4a7f37a22714c9924381e9ade610, type: 3}
+  m_Name: 2120HardDisk
   m_EditorClassIdentifier: 
-  name: HardDisk
+  name: Hard Disk
   description: 
-  frontSprite: {fileID: 21300000, guid: 39facb692f7ef0446bd487bcb7a90a21, type: 3}
+  frontSprite: {fileID: 21300000, guid: 033a3c3099be0fc46a0adf22f0ff3055, type: 3}
   backSprite: {fileID: 21300000, guid: 940dd502869d8b04c981fe7c9e9f9850, type: 3}
-  maxHp: 80
-  attack: 60
-  defense: 70
-  expYield: 100
-  growthRate: 1
+  type1: 1
+  type2: 1
+  maxHp: 90
+  attack: 20
+  defense: 80
+  spAttack: 65
+  spDefense: 65
+  speed: 45
+  catchRate: 100
+  expYield: 130
+  growthRate: 0
   learnableMoves:
-  - moveBase: {fileID: 11400000, guid: a43a8f3219b5b5048bb77f5f88f1b1ca, type: 2}
+  - moveBase: {fileID: 11400000, guid: 1642815b27caf0944ac204563ce10521, type: 2}
     level: 1
-  - moveBase: {fileID: 11400000, guid: 55943577e5e85724e9a2f851b4ce0a12, type: 2}
+  - moveBase: {fileID: 11400000, guid: 3348e18c06943e14e832da32aa81002e, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: a1d4ccf25b417ac4eb330cbcde7759d7, type: 2}
     level: 5
-  - moveBase: {fileID: 11400000, guid: 78dbbb25155f0b841851474fd8926728, type: 2}
-    level: 7
-  - moveBase: {fileID: 11400000, guid: c136b959a215ad94386b9e284f8edab8, type: 2}
-    level: 11
+  - moveBase: {fileID: 11400000, guid: 85e98d170d241bc49be7a74a41067849, type: 2}
+    level: 9
+  learnableByItems: []
+  evolutions: []

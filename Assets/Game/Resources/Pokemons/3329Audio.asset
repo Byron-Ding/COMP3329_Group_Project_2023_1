@@ -9,24 +9,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68101834d617f42458f68c963d6b13d1, type: 3}
+  m_Script: {fileID: 11500000, guid: e5aa4a7f37a22714c9924381e9ade610, type: 3}
   m_Name: 3329Audio
   m_EditorClassIdentifier: 
-  name: AudioLilim
+  name: Audio Girl
   description: 
   frontSprite: {fileID: 21300000, guid: 2141fdc51e906364e869d5f4b032fdce, type: 3}
   backSprite: {fileID: 21300000, guid: 945eedb3fb6b34b468b80e2c754bd27c, type: 3}
-  maxHp: 100
+  type1: 1
+  type2: 1
+  maxHp: 20
   attack: 80
   defense: 40
-  expYield: 150
+  spAttack: 65
+  spDefense: 65
+  speed: 60
+  catchRate: 255
+  expYield: 170
   growthRate: 0
   learnableMoves:
-  - moveBase: {fileID: 11400000, guid: b66ccf3116ceaf64e8ef26cf1cf2470a, type: 2}
+  - moveBase: {fileID: 11400000, guid: 91ad633e10f4027448072470058ff391, type: 2}
     level: 1
-  - moveBase: {fileID: 11400000, guid: 4c7da73e706f2dd4895e40cb7167eea9, type: 2}
-    level: 5
-  - moveBase: {fileID: 11400000, guid: a3ec824ffe2777941aa1f0bb95827bb9, type: 2}
+  - moveBase: {fileID: 11400000, guid: c5e3473d977ebfe4b8b29a7a46ecb632, type: 2}
     level: 7
-  - moveBase: {fileID: 11400000, guid: 3ffb26be197e79c4cb26254f83f7e5e9, type: 2}
-    level: 11
+  - moveBase: {fileID: 11400000, guid: 69e579d13223f2d42a6f9a58bdb8dbe3, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 743a52d3c4cf6f745a482e0b6f7df74e, type: 2}
+    level: 13
+  learnableByItems: []
+  evolutions: []
