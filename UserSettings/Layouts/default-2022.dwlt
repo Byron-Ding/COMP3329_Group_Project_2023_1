@@ -164,6 +164,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
     height: 722.8
   m_MinSize: {x: 300, y: 150}
@@ -229,6 +230,8 @@ MonoBehaviour:
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
+=======
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
     width: 1521.6
     height: 722.8
   m_MinSize: {x: 300, y: 100}
@@ -263,6 +266,9 @@ MonoBehaviour:
     height: 384.4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
+=======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -299,7 +305,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
+=======
+    width: 1521.6
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
     width: 1521.6
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -336,7 +346,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
+=======
+    width: 1521.6
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
     width: 1521.6
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -370,7 +384,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
+=======
+    width: 1521.6
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
     width: 1521.6
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -405,6 +423,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1206.4
     height: 722.8
   m_MinSize: {x: 200, y: 150}
@@ -413,6 +432,8 @@ MonoBehaviour:
   controlID: 49
 --- !u!114 &10
 =======
+=======
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
@@ -446,6 +467,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1206.4
     height: 427.2
   m_MinSize: {x: 200, y: 100}
@@ -454,6 +476,8 @@ MonoBehaviour:
   controlID: 50
 --- !u!114 &11
 =======
+=======
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
@@ -485,12 +509,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 908.80005
     height: 427.2
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
 =======
+=======
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
@@ -571,6 +598,9 @@ MonoBehaviour:
     height: 363.4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
+=======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -609,8 +639,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastFoldersGridSize: 68
 =======
+=======
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
@@ -624,11 +657,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ca880000
     m_LastClickedID: 35018
     m_ExpandedIDs: 00000000a081000000ca9a3b
 =======
+=======
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
@@ -639,6 +675,9 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000ba800000bc800000be800000c0800000c2800000c4800000c6800000c8800000ca800000cc800000ce800000d0800000d2800000d4800000d6800000d8800000f69800003499000086bf0000aebf0000f0bf000000ca9a3b
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
+=======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -750,11 +789,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1206.4
     y: 73.6
     width: 328.59998
     height: 701.8
 =======
+=======
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
@@ -765,6 +807,9 @@ MonoBehaviour:
     height: 317.4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
+=======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -815,11 +860,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 73.6
     width: 296.6
     height: 406.2
 =======
+=======
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
@@ -830,6 +878,9 @@ MonoBehaviour:
     height: 317.4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
+=======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -852,7 +903,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: ae9affffe4ddffff
+=======
+      m_ExpandedIDs: 445cffff4c5fffff8264ffffd464ffff4af5ffff58f5ffff6af5ffff8af5fffff4fffffff87c0000267d0000307d0000367d00003c7d0000467d00005e7d0000627d0000767d0000b27d0000f47d0000007e0000147e00002c7e0000487e00004c7e0000587e0000767e00007e7e0000ca7e0000ea7e0000ee7e00001cd0000026d0000066d70000d2d7000036d80000
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
       m_ExpandedIDs: 445cffff4c5fffff8264ffffd464ffff4af5ffff58f5ffff6af5ffff8af5fffff4fffffff87c0000267d0000307d0000367d00003c7d0000467d00005e7d0000627d0000767d0000b27d0000f47d0000007e0000147e00002c7e0000487e00004c7e0000587e0000767e00007e7e0000ca7e0000ea7e0000ee7e00001cd0000026d0000066d70000d2d7000036d80000
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -917,6 +972,9 @@ MonoBehaviour:
     height: 317.4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
+=======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -1338,6 +1396,9 @@ MonoBehaviour:
     height: 363.4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
+=======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -1406,6 +1467,9 @@ MonoBehaviour:
     m_Translation: {x: 345.1, y: 171.2}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
+=======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
 >>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
@@ -1420,6 +1484,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -612.37366
       y: -307.2
       width: 1224.7473
@@ -1427,6 +1492,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.8224826
   m_LastWindowPixelSize: {x: 1259.1667, y: 657.9166}
+=======
+      x: -619.24493
+      y: -307.2
+      width: 1238.4899
+      height: 614.4
+    m_MinimalGUI: 1
+  m_defaultScale: 0.5572916
+  m_LastWindowPixelSize: {x: 862.75, y: 454.25}
+>>>>>>> parent of 1088210a (纯净分支，去除JackZhan部分)
 =======
       x: -619.24493
       y: -307.2
