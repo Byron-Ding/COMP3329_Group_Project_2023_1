@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ParalyzHeal
   m_EditorClassIdentifier: 
   name: Paralyz Heal
-  description: Heals a paralyzed Pokemon
+  description: Heals a paralyzed elf
   icon: {fileID: 3057794363970017049, guid: 9aac8651bfc3636448b7b409b1f4d054, type: 3}
   price: 100
   isSellable: 1

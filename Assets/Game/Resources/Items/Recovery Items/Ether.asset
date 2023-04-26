@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ether
   m_EditorClassIdentifier: 
   name: Ether
-  description: Recovers the PP of a move by 10
+  description: Recovers the PP of a skill by 10
   icon: {fileID: 2187033664556446688, guid: 9aac8651bfc3636448b7b409b1f4d054, type: 3}
   price: 100
   isSellable: 1
