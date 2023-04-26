@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BurnHeal
   m_EditorClassIdentifier: 
   name: Burn Heal
-  description: Heals a burned Pokemon
+  description: Heals a burned elf
   icon: {fileID: -6090256331845058582, guid: 9aac8651bfc3636448b7b409b1f4d054, type: 3}
   price: 100
   isSellable: 1

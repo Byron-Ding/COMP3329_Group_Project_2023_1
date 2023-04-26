@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Awakening
   m_EditorClassIdentifier: 
   name: Awakening
-  description: Wakes up a pokemon from sleep
+  description: Wakes up an elf from sleep
   icon: {fileID: -1130307063785972239, guid: 9aac8651bfc3636448b7b409b1f4d054, type: 3}
   price: 100
   isSellable: 1

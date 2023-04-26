@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TM01
   m_EditorClassIdentifier: 
   name: TM01
-  description: Can teach Quick Attack to a Pokemon
+  description: Can teach Quick Attack to an elf
   icon: {fileID: 6639657697291588988, guid: 3ae12697ae504414bbf0797ea36dfddd, type: 3}
   price: 1000
   isSellable: 1
