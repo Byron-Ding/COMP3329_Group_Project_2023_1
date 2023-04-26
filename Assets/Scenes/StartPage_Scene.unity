@@ -5847,8 +5847,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Z: \t\tConfirm\nX: \t\tReturn\nEnter: \tCheck Bag\nW/^: \t\tUp\nA/<: \t\tLeft\nS/v:
-    \t\tDown\nD/>: \t\tRight"
+  m_text: "Z: \t\tConfirm\nX: \t\tReturn\nEnter: \tCheck Bag\nW/^: \tUp\nA/<: \t\tLeft\nS/v:
+    \tDown\nD/>: \t\tRight"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 17892ab338f74344390741925bada7bc, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
