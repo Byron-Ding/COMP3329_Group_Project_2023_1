@@ -9,7 +9,7 @@ public class SceneLoader : PersistentSingleton<SceneLoader>
 {
 
     [SerializeField] UnityEngine.UI.Image transitionImage;
-    [SerializeField] float transitionTime = 1.5f;
+    [SerializeField] float transitionTime = 0.5f;
 
     Color color;
 
@@ -34,7 +34,7 @@ public class SceneLoader : PersistentSingleton<SceneLoader>
      * 淡入效果
      * 用于加载场景
      */
-    public IEnumerator LoadCoroutine(string sceneName, GameObject scene = null) {
+    public IEnumerator LoadCoroutine(string sceneName, GameObject scene) {
 
         // 画面中间会卡一下，是因为 SceneManager.LoadScene(sceneName) 函数问题
         // 用这个函数加载场景，会在加载场景的同时，把当前场景的所有对象都销毁掉
@@ -55,7 +55,7 @@ public class SceneLoader : PersistentSingleton<SceneLoader>
         // 从零开始加
         while (color.a < 1f) {
             // 要使用 unscaledDeltaTime，否则会受到 Time.timeScale 影响
-            color.a += Time.unscaledDeltaTime / transitionTime;
+            color.a += Time.timeScale / transitionTime;
 
             // 限制alpha透明度的最小值
             color.a = Mathf.Clamp01(color.a);
@@ -79,7 +79,7 @@ public class SceneLoader : PersistentSingleton<SceneLoader>
         // 从1开始减
         while (color.a > 0f) {
             // 要使用 unscaledDeltaTime，否则会受到 Time.timeScale 影响
-            color.a -= Time.unscaledDeltaTime / transitionTime;
+            color.a -= Time.timeScale / transitionTime;
 
             // 限制alpha透明度的最大值
             color.a = Mathf.Clamp01(color.a);
@@ -95,7 +95,7 @@ public class SceneLoader : PersistentSingleton<SceneLoader>
         transitionImage.gameObject.SetActive(false);
 
     }
-    public void LoadSceneWithFadeInOutEffect(string sceneName, GameObject scene) {
+    public void LoadSceneWithFadeInOutEffect(string sceneName, GameObject scene = null) {
         // 淡入效果
         StartCoroutine(LoadCoroutine(sceneName, scene));
     }

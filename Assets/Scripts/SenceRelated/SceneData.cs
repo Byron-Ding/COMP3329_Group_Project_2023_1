@@ -8,6 +8,7 @@ public class SceneData : PersistentSingleton<SceneData> {
     public const string SENCE_NAME_GAME_PLAY_STORY_SCENE1 = "StoryTellingImage1_Scene";
     public const string SENCE_NAME_GAME_PLAY_STORY_SCENE2 = "StoryTellingImage2_Scene";
     public const string SENCE_NAME_GAME_PLAY_STORY_SCENE3 = "StoryTellingImage3_Scene";
+    public const string SENCE_NAME_GAME_PLAY_STORY_SCENE4 = "StoryTellingImage4_Scene";
     public const string SENCE_NAME_GAME_PLAY_MAIN_ENTRY_SCENE = "GamePlay";
 
     public GameObject Canvas_StartPage;
