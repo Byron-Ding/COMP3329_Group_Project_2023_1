@@ -7746,8 +7746,8 @@ PrefabInstance:
         type: 3}
       propertyPath: dialog.lines.Array.data[2]
       value: And I, who am extremely intelligent, have already prepared the combat
-        partner you need. Please check your bag by pressing Enter to see your first
-        elf.
+        partner you need. Please check your bag later by pressing Enter and check
+        the house beside us.
       objectReference: {fileID: 0}
     - target: {fileID: 8307941782266318812, guid: b018929b598059b4094cde9873294efc,
         type: 3}

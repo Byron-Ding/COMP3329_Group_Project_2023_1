@@ -207,6 +207,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1133004729654675478, guid: 5f6b707dee1768e47874d650cd2dceb0,
         type: 3}
+      propertyPath: sceneMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 1817a162a8455da43b8f294b4be475a2, type: 3}
+    - target: {fileID: 1133004729654675478, guid: 5f6b707dee1768e47874d650cd2dceb0,
+        type: 3}
       propertyPath: connectedScenes.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -329,7 +334,7 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneMusic
       value: 
-      objectReference: {fileID: 8300000, guid: bb6ec5a931eda6e418dd3c3b1ef8fdf1, type: 3}
+      objectReference: {fileID: 8300000, guid: 3a7b4c22554754048863a7646e300d4f, type: 3}
     - target: {fileID: 1133004729654675478, guid: 5f6b707dee1768e47874d650cd2dceb0,
         type: 3}
       propertyPath: connectedScenes.Array.size
@@ -434,6 +439,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1133004729654675478, guid: 5f6b707dee1768e47874d650cd2dceb0,
+        type: 3}
+      propertyPath: sceneMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 5d4b86f2a74672a4bbb240667789c0d4, type: 3}
     - target: {fileID: 1133004729654675478, guid: 5f6b707dee1768e47874d650cd2dceb0,
         type: 3}
       propertyPath: connectedScenes.Array.size
@@ -679,6 +689,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 3eca1f90b49dbf04b98484052b037758,
         type: 3}
+    - target: {fileID: 8201781112251465046, guid: 76a39e2603d68a549b34befa53e7129e,
+        type: 3}
+      propertyPath: wildBattleMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: e3e270377322aa24595a11d397cd831c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -794,7 +809,7 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneMusic
       value: 
-      objectReference: {fileID: 8300000, guid: f62c90e016a779a4887641760e6f4c5b, type: 3}
+      objectReference: {fileID: 8300000, guid: 5d455c482fa7dc64eb670cedc8364b0d, type: 3}
     - target: {fileID: 1133004729654675478, guid: 5f6b707dee1768e47874d650cd2dceb0,
         type: 3}
       propertyPath: connectedScenes.Array.size
