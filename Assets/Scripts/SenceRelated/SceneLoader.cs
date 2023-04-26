@@ -9,7 +9,7 @@ public class SceneLoader : PersistentSingleton<SceneLoader>
 {
 
     [SerializeField] UnityEngine.UI.Image transitionImage;
-    [SerializeField] float transitionTime = 0.5f;
+    [SerializeField] float transitionTime = 1f;
 
     Color color;
 
