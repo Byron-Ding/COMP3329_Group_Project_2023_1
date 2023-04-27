@@ -1938,6 +1938,16 @@ PrefabInstance:
       propertyPath: name
       value: Jack
       objectReference: {fileID: 0}
+    - target: {fileID: 8201781111339894504, guid: 76a39e2603d68a549b34befa53e7129e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8201781111339894519, guid: 76a39e2603d68a549b34befa53e7129e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8201781112251465044, guid: 76a39e2603d68a549b34befa53e7129e,
         type: 3}
       propertyPath: m_IsActive
