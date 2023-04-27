@@ -14,12 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StoryTellingImage2_Scene.unity
     guid: e0c3ff8649c7611439e35634ca4aba40
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/StoryTellingImage3_Scene.unity
-    guid: 8a4f451a885719f48a17de493270bfa3
+    guid: 3c013ddf0ee5ace419ed269ad3749b48
   - enabled: 1
     path: Assets/Scenes/StoryTellingImage4_Scene.unity
     guid: b65aaf1829c781d49ac63c01f5426f97
@@ -35,9 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Town2.unity
     guid: cbed4642a97ddc547b5dd33064bed7e4
-  - enabled: 1
-    path: Assets/Scenes/StoryTellingImageSwitching_Scene 3.unity
-    guid: 9c08ba08c4864784db6d7f3cf901da95
   - enabled: 1
     path: Assets/Scenes/House1.unity
     guid: 03b912b7bcaa56d4e9c1e7a4a3d5a3a8
