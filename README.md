@@ -1,10 +1,9 @@
 # RESCUE HKU
 ## 1. Team members
-### Author(s): 
 Zhan Wangjia 3035844560  
 Ding Zedong 3035947245  
 Sun Haoyu 3035856044  
-XU Qingluo 3035908108  
+XU Qingluo 3035908108
 
 ## 2. Game introduction
 RESCUE HKU is a PvE game with the background of a virtual world built on the University of Hong Kong. In 2033, an evil AI named CSatan controls all professors in the CS department and creates evil elves. Players in this game need to portray a CS student named Jack and their goal is to defeat evil elves and save professors from the power of evil, and ultimately beat AI CSatan, shut it down and bring light back to the University of Hong Kong.
