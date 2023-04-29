@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aa4a7f37a22714c9924381e9ade610, type: 3}
+  m_Name: 3329Audio
+  m_EditorClassIdentifier: 
+  name: Audio Girl
+  description: 
+  frontSprite: {fileID: 21300000, guid: 2141fdc51e906364e869d5f4b032fdce, type: 3}
+  backSprite: {fileID: 21300000, guid: 945eedb3fb6b34b468b80e2c754bd27c, type: 3}
+  type1: 1
+  type2: 1
+  maxHp: 20
+  attack: 80
+  defense: 40
+  spAttack: 65
+  spDefense: 65
+  speed: 60
+  catchRate: 255
+  expYield: 170
+  growthRate: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 91ad633e10f4027448072470058ff391, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c5e3473d977ebfe4b8b29a7a46ecb632, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 69e579d13223f2d42a6f9a58bdb8dbe3, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 743a52d3c4cf6f745a482e0b6f7df74e, type: 2}
+    level: 13
+  learnableByItems: []
+  evolutions: []

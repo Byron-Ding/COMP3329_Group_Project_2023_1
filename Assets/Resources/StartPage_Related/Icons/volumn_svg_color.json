@@ -1,0 +1,8 @@
+{
+	"svg_files_color_setting": {
+	"volume-down.svg" : "#FF50FF",
+	"volume-mute.svg": "#FFFFFF",
+	"volume-off.svg": "#FFFF50",
+	"volume-up.svg": "#50FFFF"
+	}
+}
