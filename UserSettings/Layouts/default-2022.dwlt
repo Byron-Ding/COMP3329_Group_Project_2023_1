@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1692
     height: 961.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -294,8 +294,8 @@ MonoBehaviour:
     y: 0
     width: 400
     height: 911.3333
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 32940000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3ecbffff8acbffffdccbffff2eccffff90ccffff38d1ffff88d1ffff7ed3ffffe0d3ffff10d4ffff5cd4ffff98dfffffa4dfffffb2dfffffc0dfffffd0dfffff18e0fffffeedffff1afbffff
+      m_ExpandedIDs: 7e51ffffd051ffffa453fffffe53ffff2654ffff6a54ffff9e5fffffa25fffffa85fffffae5fffffb65ffffff65fffff2865ffff7865ffff6667ffffc067ffffe867ffff2c68ffff6073ffff6473ffff6a73ffff7073ffff7873ffffb873ffffe482ffff748fffffe09dffff089effff0e9effff2aa4ffff70a4ffff62a6ffffc0a6ffffeca6ffff34a7ffff6cb2ffff74b2ffff7eb2ffff88b2ffff94b2ffffd8b2ffff4ab6ffffacc0ffff6cc1ffff02e1ffffcee1ffff86e2ffff3aeeffff4eeeffffd0eeffff1afbffff02a00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -854,9 +854,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 522.47687, y: 355.56757, z: -0.21370065}
+    m_Target: {x: 99.63086, y: 24.003458, z: -0.32940418}
     speed: 2
-    m_Value: {x: 522.47687, y: 355.56757, z: -0.21370065}
+    m_Value: {x: 99.63086, y: 24.003458, z: -0.32940418}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -906,9 +906,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 330.82593
+    m_Target: 109.09557
     speed: 2
-    m_Value: 330.82593
+    m_Value: 109.09557
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1076,7 +1076,7 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 1
+    m_SearchArea: 0
     m_Folders:
     - Assets/Scenes
     m_Globs: []
@@ -1092,9 +1092,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: f6930000
-    m_LastClickedID: 37878
-    m_ExpandedIDs: 00000000a493000000ca9a3bffffff7f
+    m_SelectedIDs: f0930000
+    m_LastClickedID: 37872
+    m_ExpandedIDs: 000000009e930000e893000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1122,7 +1122,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a4930000
+    m_ExpandedIDs: 000000009e930000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
